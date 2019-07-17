@@ -1,19 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zebadiah Miller</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/portfoliostyle.css">
-    <script src="Assets/javascript/portfolio.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
 
 
 </head>
+
 <body>
-    <canvas id ="background-effect"></canvas>
+    <!-- Dropdown Structure
     
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!" class ="white-text">one</a></li>
+            <li><a href="#!" class ="white-text">t</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" class ="white-text">t</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="#!" class ="white-text">on</a></li>
+            <li><a href="#!" class ="white-text">tw</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" class ="white-text">th</a></li>
+        </ul>
+        <ul id="dropdown3" class="dropdown-content">
+            <li><a href="#!" class ="white-text">one</a></li>
+            <li><a href="#!" class ="white-text">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#!" class ="white-text">three</a></li>
+        </ul>
+    
+        <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"></a>
+            <ul class="right hide-on-med-and-down">
+
+                <!-- Dropdown Trigger -->
+    <!-- <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Projects<i
+                            class="material-icons right"></i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Github<i
+                            class="material-icons right"></i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown3">Linkedin<i
+                            class="material-icons right"></i></a></li>
+            </ul>
+        </div>
+    </nav> -->
+
+
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/office.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                <a href="#name"><span class="white-text name">John Doe</span></a>
+                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+    <button id ="portfolio-btn">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">About me</i></a>
+    </button>
+
+
+
+
+
+
+    <canvas id="background-effect"></canvas>
+    <script src="Assets/javascript/portfolio.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>
+
 </html>
 
 
@@ -24,14 +99,14 @@
 
 
 <!-- <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <title>Index</title>
-        
-    
-    </head>
-   
-    
+        <html lang="en-us">
+            <head>
+                <title>Index</title>
+                
+                
+            </head>
+            
+            
     <body>
         <div>
              <h1 class="name" id="firstname">Zebadiah Miller</h1>

@@ -39,6 +39,7 @@ window.onload = function(){
         };
         ctx.fill();
         moveParticles();
+        
     };
     
     let sway = 0;
@@ -57,5 +58,18 @@ window.onload = function(){
     };
 
 setInterval(drawParticles, 50);
+
+
+
+  
+  
+
+
+
+// $(".dropdown-trigger").dropdown();
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
 
 };

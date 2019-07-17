@@ -2,8 +2,24 @@ body{
     background:#2e2e2e;
 }
 
-
-
+#portfolio-btn{
+    border-radius: 50%;
+}
+button:hover{
+    background-color:white;
+    font-size:32px;
+}
+button {
+    background-color: #989898;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
 
 
 
