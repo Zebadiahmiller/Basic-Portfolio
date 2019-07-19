@@ -1,13 +1,51 @@
 body{
     background:#2e2e2e;
 }
+.container{
+    display: flex;
+    height:10vh;
+    width:100%;
+    align-items:center;
+    justify-content:space-evenly;
+    }
+  
+    p{  
+        display: :none;
+        display: flex;
+        align-content: center;
+    }
+.self-image{
+    height:200px;
+    width:200px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;    
+    bottom:20px;
+    border-radius:50%;
+}
+
+
+  #learn-more-button{  
+      display: flex;
+      position: relative;
+      background-color: #989898;    
+        top:10px;
+        border-radius: 15%;   
+       left :20px;
+}
+#learn-more-button:hover{
+    background-color:#F08080;
+}
 
 #portfolio-btn{
-    border-radius: 50%;
+    border-radius: 15%;   
+    display:inline-block;
+    
 }
 button:hover{
-    background-color:white;
-    font-size:32px;
+    background-color:#F08080;
+    
 }
 button {
     background-color: #989898;
@@ -16,10 +54,41 @@ button {
     padding: 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display:flex;
+    justify-content: left;
     font-size: 16px;
     margin: 4px 2px;
   }
+  .sidenav{
+      background-color:#989898;
+  }
+  .material-icons{
+      color:white;
+  }
+  .right-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: flex-end;
+      align-self:flex-end;
+      width: 100vw;
+  }
+  .links-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    align-self:flex-end;
+    
+  }
+  #github-link{
+      Color:white;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-end;
+      align-self: flex-end;
+  }
+ 
 
 
 
