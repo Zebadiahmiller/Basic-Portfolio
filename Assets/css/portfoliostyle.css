@@ -16,7 +16,7 @@ body{
 }
 .name{
     width:500px;
-    z-index:-1;
+    z-index:1;
     font-size:32px;
     display:flex;
     flex-direction: column;
@@ -136,10 +136,17 @@ button {
     margin-right:36px;
 }
 #contact-button{
-    height:48px;
-    widows: 48px;
-    margin:10px;
-    margin-right:36px;
+    border-radius: 15%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    align-self:flex-end;
+    height:32px;
+    width:100px;
+    margin-right:13px;
+    font-family: monospace;
+    font-style: italic;
 }
 #github-button{
     height:48px;
@@ -162,6 +169,16 @@ button {
     text-decoration: underline;
     margin-top:10px;
     font-family: monospace;
+}
+#hide-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-self:flex-start;
+    display:none;
+    color:white;
+    
 }
 
 
