@@ -8,12 +8,13 @@ body{
     align-items:center;
     justify-content:space-evenly;
     }
+#info-about-me{
+    display:flex;
+    display:none;
+}
+
   
-    p{  
-        display: :none;
-        display: flex;
-        align-content: center;
-    }
+
 .self-image{
     height:200px;
     width:200px;
@@ -40,7 +41,13 @@ body{
 
 #portfolio-btn{
     border-radius: 15%;   
-    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    align-self:flex-end;
+    height:32px;
+    
     
 }
 button:hover{
@@ -87,8 +94,35 @@ button {
       flex-direction: column;
       align-content: flex-end;
       align-self: flex-end;
+      
   }
- 
+  #github-link:hover{
+      opacity:0.5;
+  }
+  #linked-button{
+      height:48px;
+      widows: 48px;
+      margin:10px;
+      margin-right:25px;
+  }
+  #resume-button{
+    height:48px;
+    widows: 48px;
+    margin:10px;
+    margin-right:36px;
+}
+#contact-button{
+    height:48px;
+    widows: 48px;
+    margin:10px;
+    margin-right:36px;
+}
+#github-button{
+    height:48px;
+    widows: 48px;
+    margin:10px;
+    margin-right:36px;
+}
 
 
 
