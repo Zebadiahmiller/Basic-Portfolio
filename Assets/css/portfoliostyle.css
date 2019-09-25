@@ -175,6 +175,7 @@ button {
     text-align:center;
     color: aliceblue;
     font-family: monospace;
+    text-decoration: underline;
 }
 #projects-title{
     text-align:center;
