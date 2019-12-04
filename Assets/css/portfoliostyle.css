@@ -26,6 +26,7 @@ body{
     flex-shrink: 1;
     
 }
+
 .name{
     width:500px;
     z-index:1;
@@ -129,7 +130,7 @@ button {
       display: flex;
       flex-direction: column;
       align-content: flex-end;
-      align-self: flex-end;
+      align-self: flex-end;      
       
   }
   #github-link:hover{
@@ -190,7 +191,10 @@ button {
     align-content: flex-start;
     align-self:flex-start;
     display:none;
-    color:white;
+    color:white;   
+    font-family: monospace;
+    font-size:18px;
+    flex-shrink: 1;
     
 }
 
